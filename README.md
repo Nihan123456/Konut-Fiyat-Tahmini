@@ -49,7 +49,9 @@ R² — R-Squared
 Modelin hedef değişkendeki varyansı ne ölçüde açıkladığını gösterir. Değerin 1'e yaklaşması daha yüksek açıklama gücünü ifade eder.
 
 📈 Model Sonuçları
+
 Modeller test veri seti üzerinde değerlendirilmiştir.
+
 Model	MAE	RMSE	R²
 Linear Regression	15,272.67	21,524.40	0.9161
 Random Forest	16,357.63	23,824.99	0.8972
