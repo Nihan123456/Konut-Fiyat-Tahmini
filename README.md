@@ -52,15 +52,15 @@ Modelin hedef değişkendeki varyansı ne ölçüde açıkladığını gösterir
 
 Modeller test veri seti üzerinde değerlendirilmiştir.
 
-Model	MAE	RMSE	R²
+Model            	MAE	          RMSE	      R²
 
-Linear Regression	15,272.67	21,524.40	0.9161
+Linear Regression	15,272.67	   21,524.40  	 0.9161
 
-Random Forest	16,357.63	23,824.99	0.8972
+Random Forest	    16,357.63	    23,824.99	   0.8972
 
-Gradient Boosting	15,429.90	21,423.99	0.9169
+Gradient Boosting	 15,429.90	  21,423.99	   0.9169
 
-XGBoost	16,487.69	24,037.63	0.8954
+XGBoost	          16,487.69	    24,037.63	   0.8954
 
 🔎 Sonuçların Değerlendirilmesi
 Model sonuçları karşılaştırıldığında:
@@ -72,16 +72,22 @@ Model sonuçları karşılaştırıldığında:
 Bu sonuçlar, kullanılan veri seti ve uygulanan veri ön işleme adımları kapsamında modellerin performanslarının birbirinden farklı olduğunu göstermektedir.
 
 📁 Proje Yapısı
+
 konut-fiyati-tahmin/
 │
+
 ├── data/
 │   └── housing.csv
 │
+
 ├── notebooks/
 │   └── konut_fiyati_tahmin.ipynb
 │
+
 ├── README.md
+
 ├── requirements.txt
+
 └── .gitignore
 
 ⚙️ Kurulum
