@@ -53,9 +53,13 @@ Modelin hedef değişkendeki varyansı ne ölçüde açıkladığını gösterir
 Modeller test veri seti üzerinde değerlendirilmiştir.
 
 Model	MAE	RMSE	R²
+
 Linear Regression	15,272.67	21,524.40	0.9161
+
 Random Forest	16,357.63	23,824.99	0.8972
+
 Gradient Boosting	15,429.90	21,423.99	0.9169
+
 XGBoost	16,487.69	24,037.63	0.8954
 
 🔎 Sonuçların Değerlendirilmesi
